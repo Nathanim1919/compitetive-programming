@@ -2,7 +2,7 @@ def checkAllNumsInMaxtric(matrixs: list[list[int]]) -> bool:
     nums = [i for i in range(1, len(matrixs[0])+1)]
     print(nums)
 
-    for i in matrixs: # [[1,2,3], [1, 2, 3]]
+    for i in matrixs: # [[1,2,3], [1, 2, 3], [1, 2, 3]] 
         for j in nums:
             if j not in i:
                 return False
